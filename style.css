@@ -6,6 +6,21 @@ section {
     justify-content: center;
     align-items: center;
   }
+@media and screen and (max-width:400px){
+    div{
+        width:100%;
+    }
+}
+@media and screen and (min-width:400px) and (max-width:1024px){
+    div{
+        width:80%;
+    }
+}
+@media and screen and (min-width:1024px){
+    div{
+        width:60%;
+    }
+}
 .section{
     width:100%;
     min-width:1000px;
